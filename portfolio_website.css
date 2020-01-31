@@ -1,0 +1,233 @@
+*{
+margin: 0px 0px 5px 0px;
+border:0;
+padding: 0;
+}
+
+body {
+    background-color: #2e2e2e;
+}
+
+
+nav {
+    position: fixed;
+    height: 10px;
+    background-color: #2e2e2e;
+    width: 100%;
+    text-align: center;
+    word-spacing: 80px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:visited {
+    font: white;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+header {
+    text-align:center;
+    background-color: #ebc388;
+    padding-top: 30%;
+    height: 550px;
+
+}
+
+#color {
+    color: white;
+}
+
+.wrapper {
+    background-color: #b1b376;
+    height: 500px;
+}
+
+#about {
+    background-color: #ebc388;
+    padding: 20px;
+    padding-top: 30px;
+    height: 600px;
+}
+
+#about a {
+    text-decoration: none;
+    color: white;
+}
+#about a:hover {
+    color:blue;
+
+}
+#picture {
+    width: 15%;
+    height: 15%;
+    margin-left: 42.5%;
+    border-radius: 100%;
+}
+
+
+
+article {
+    margin-top: 20px;
+    line-height: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align:center;
+}
+
+
+
+h2 {
+    text-align:center;
+    padding-bottom:30px;
+  
+}
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+
+
+
+#portfolio {
+    background-color:  #ebc388;
+    padding: 20px;
+    text-align:center;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+#portfolio ul {
+    line-height: 2em;
+    font-size: 24px;
+    list-style-type: none;
+}
+#portfolio ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#portfolio ul a:hover {
+    color: blue;
+}
+
+
+
+
+
+#contact {
+    padding-top: 30px;
+    text-align:center;
+    background-color: #ebc388;
+    height: 700px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact a:hover {
+    color: blue;
+}
+
+#thing::before {
+    content: "Software Developer";
+    animation: text infinite 8s;
+    animation-timing-function: linear;
+  
+  }
+  @keyframes text {
+    0% {
+      content: "Software Developer";
+    }
+    20% {
+      content: "Graphic Designer";
+    }
+    40% {
+      content: "Web Designer";
+    }
+    60% {
+      content: "Musician";
+    }
+    80% {
+      content: "Producer/Composer";
+    }
+    100% {
+      content: "Software Developer"
+    }
+  }
+
+form {
+    text-align:center;
+}
+input {
+    font-size: 24px;
+    width: 500px;
+    padding: 10px;
+
+}
+
+button {
+    width: 100px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+#bigbody {
+    size: auto;
+
+}
+
+
+footer {
+    padding-top: 20px;
+    background-color: #2e2e2e;
+    text-align: center;
+    padding-bottom: 0px;
+ 
+}
+
+footer a{    
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font: yellow;
+}
+
+footer>ul {
+    word-spacing: 60px;
+
+}
+
+footer>ul>li {
+    display: inline;
+}
+
+a:hover {
+    color:yellow;
+}
