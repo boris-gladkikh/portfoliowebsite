@@ -199,29 +199,24 @@ h1 {
     }
   }
 
-form {
-    text-align:center;
+
+
+
+.contactinfo {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 50px;
+    margin-left: 30%;
+    border-bottom: 2px solid #2e2e2e;
+    width: 40%;
 }
-input {
-    font-size: 24px;
-    width: 500px;
-    padding: 10px;
-
+.contactinfo ul {
+    list-style: none;
+    word-spacing: 50px;
+    
 }
-
-button {
-    width: 100px;
-    height: 30px;
-}
-
-button:hover {
-    background-color: blue;
-    color: white;
-}
-
-#bigbody {
-    size: auto;
-
+.contactinfo ul li {
+    display: inline;
 }
 
 
