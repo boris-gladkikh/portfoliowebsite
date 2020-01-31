@@ -1,11 +1,17 @@
 *{
-margin: 0px 0px 5px 0px;
+margin: 0px 0px 2px 0px;
 border:0;
 padding: 0;
 }
 
 body {
     background-color: #2e2e2e;
+}
+
+.wrapper {
+    background-color: #b1b376;
+    height: 500px;
+
 }
 
 
@@ -54,16 +60,15 @@ header {
     color: white;
 }
 
-.wrapper {
-    background-color: #b1b376;
-    height: 500px;
-}
+
 
 #about {
     background-color: #ebc388;
     padding: 20px;
     padding-top: 30px;
-    height: 600px;
+    height: auto;
+  
+
 }
 
 #about a {
@@ -81,14 +86,33 @@ header {
     border-radius: 100%;
 }
 
+.column {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin:10px;
+    
+}
 
+#first {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+#second {
+    display: inline-block;
 
-article {
-    margin-top: 20px;
-    line-height: 2em;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align:center;
+    
+   
+  
+}
+#third {
+    display: inline-block;
+ 
+
 }
 
 
@@ -104,7 +128,9 @@ h1 {
     font-size: 40px;
 }
 
-
+#center {
+    text-align:center;
+}
 
 
 #portfolio {
@@ -128,9 +154,6 @@ h1 {
 #portfolio ul a:hover {
     color: blue;
 }
-
-
-
 
 
 #contact {
