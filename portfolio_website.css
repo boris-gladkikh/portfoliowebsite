@@ -23,6 +23,7 @@ nav {
     text-align: center;
     word-spacing: 80px;
     padding: 20px;
+    z-index: 2;
 }
 
 nav a {
