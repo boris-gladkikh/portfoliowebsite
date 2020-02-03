@@ -6,11 +6,15 @@ padding: 0;
 
 body {
     background-color: #2e2e2e;
+    min-width: 1300px;
+  
 }
 
 .wrapper {
-    background-color: #b1b376;
+    background-color: #ebc388;
     height: 500px;
+    margin: auto;
+   
 
 }
 
@@ -68,6 +72,7 @@ header {
     padding: 20px;
     padding-top: 30px;
     height: auto;
+    
   
 
 }
