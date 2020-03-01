@@ -140,6 +140,8 @@ li {
 .title {
     background-color: black;
     padding: 10px;
+    opacity: .75;
+    
 }
 
 a {
