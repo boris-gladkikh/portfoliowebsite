@@ -5,113 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Boris Gladkikh</title>
-  <link rel="stylesheet" href="portfolio_website.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  
-  <nav>
-      <ul>
+    <nav>
         <li><a href="#home">HOME</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#contact">CONTACT</a></li>
-      </ul>
+        </ul>
+       
     </nav>
-  </section>
+  <section class="container" id="home">
+     <div class=title>
+        <h2>Hello, I am <span id="color">Boris Gladkikh<br>
+            I am a <span class="anim" id="thing"></span></h2>
+         </div>
+    
+     </section>
 
-  <header class = "wrapper" id="home">
-     <h2>Hello, I am <span id="color">Boris Gladkikh</span><br>
-    I am a <span class="anim" id="thing"></span></h2>
-     </header>
-
-
-<section class="wrapper" id="about">
-  <h1 id="color">ABOUT</h1>
-  <div><img id="picture"src="https://github.com/gladkillmusic/portfoliowebsite/blob/master/smol-portrait.jpg?raw=true" alt="about photo"></div>
-
+<section class="container" id="about">
  
-  <div>
-<span class="column" id="first">
-  <h2>Hello!</h2>
- I am a software developer with a background in music theory, sound design and audio production. 
-  I specialize in front-end development, as well as web design and graphic design. I have had an 
-  extensive and diverse career in the music industry, from running and maintaining an internationally 
-  touring and releasing act, to a teaching career in SAE audio institute, to studio engineering and 
-  sound design for major musicians. <br><br><br>
-  
-</span>
+  <div class="column">
+    <h2>Hello!</h2>
+    I am a software developer with a background in music theory, sound design and audio production. 
+     I specialize in front-end development/UX, as well as web design and graphic design. I have had an 
+     extensive and diverse career in the music industry, from running and maintaining an internationally 
+     touring and releasing act, to a teaching career in SAE audio institute, to studio engineering and 
+     sound design for major musicians. <br><br><br>
+     
+  </div>
 
-<span class="column" id="second">
-  <h2>My skills & interests include:</h2>
-  <ul>
-    <h4>Skills</h4>
-    <li>HTML & CSS</li>
-    <li>Javascript & Python</li>
-    <li>Photoshop, Illustrator</li><br>
-    <h4>Interests</h4>
-    <li>Web design</li>
-    <li>Graphic design</li>
-    <li>Software development</li>
-    <li>Audio Production & composition</li>
-  </ul>
-</span>
-<span class="column" id="third">
-  <h2>Education</h2>
-  <p>I am currently in school learning Javascript, Python, React, Node, 
-    Jquery, Ruby, and much more. I have an intermediate understanding of HTML, CSS and Javascript.</p><br>
-    <h4>Prior Education</h4>
+<div class="column">
+    <h2>Skills & Interests</h2>
+    <ul>
+      <h4>Skills</h4>
+      <li>HTML & CSS</li>
+      <li>Javascript & Python</li>
+      <li>Photoshop, Illustrator</li><br>
+      <h4>Interests</h4>
+      <li>Web design</li>
+      <li>Graphic design</li>
+      <li>Software development</li>
+      <li>Audio Production & composition</li>
+    </ul>
   
-  <ul>
-    <li>Bachelor's of Science: Entertainment Business</li>
-    <h6>Full Sail University</h6>
-    <li>Associate of Sciene: Audio recording & engineering</li>
-    <h6>Full Sail  University</h6>
-  </ul><br>
-</span>
 </div>
-
-
- <h4 id="center">You can download my current resume <a href="https://github.com/gladkillmusic/portfoliowebsite/raw/master/Boris%20Gladkikh%202019%20resume.pdf">Here.</a></h4>
-
-
- 
+<div class="column">
+    <h2>Education</h2>
+    <p>I am currently in school learning Javascript, Python, React, Node, 
+      Jquery, Ruby, and much more. I have an intermediate understanding of HTML, CSS and Javascript.</p><br>
+      <h4>Prior Education</h4>
+    
+    <ul>
+      <li>Bachelor's of Science: Entertainment Business</li>
+      <h6>Full Sail University</h6>
+      <li>Associate of Sciene: Audio recording & engineering</li>
+      <h6>Full Sail  University</h6>
+    </ul><br>
+  
+</div>
+<div><h3>You can download my current resume <a href="https://github.com/gladkillmusic/portfoliowebsite/raw/master/Boris%20Gladkikh%202019%20resume.pdf">Here.</a></h3>
+</div>
 </section>
 
-<section class="wrapper" id="portfolio">
-  <h1  id="color">PORTFOLIO</h1><br>
-  <br>
-  <h4>Below you can find some samples of my programming work. </h4><br><br>
- <p><br>
- <br>
- 
-  <ul>
-    <li><a href="https://gladkillmusic.github.io/memegenerator/" target="_blank">MEME GENERATOR</a></li>
-    <li> <a href="https://gladkillmusic.github.io/memorygame/" target="_blank">MEMORY GAME</a></li>
-    <li><a href="#portfolio">FANTASY DICE ROLLER (coming soon)</a></li>
-    <li><a href="#portfolio">TEXT ADVENTURE GAME (coming soon)</a></li>
-   
-  </ul>
+<section class="container" id="portfolio">
 
- </p>
-   
+    <div class="box"> <a href="https://gladkillmusic.github.io/memegenerator/" target="_blank">MEME GENERATOR</a></div>
 
+<div class="box">
+    <a href="https://gladkillmusic.github.io/memorygame/" target="_blank">MEMORY GAME</a>
+</div>
+<div class="box">
+    <a href="#portfolio">COMING SOON</a>
+</div>
+<div class="box">
+    <a href="#portfolio">COMING SOON</a>
 
-
-
-
-
-
+</div>
+     
 </section>
 
-<section class="wrapper" id="contact">
-  <h1 id="color">CONTACT</h1>
-  <br>
-  <br>
-  <br>
-  <br>
-  <h4>Feel free to <a href="mailto:borisagladkikh@gmail.com">E-mail</a> me if you have any questions. </h4>
-  <section class=contactinfo>
+<section class="container" id="contact">
+    <div class="contactbox">
+        <h4>Feel free to <a href="mailto:borisagladkikh@gmail.com">E-mail</a> me if you have any questions. </h4><br><br>
+  
 
     <em>For project inquiries, employment opportunities, collaborative endeavors, etc. please Email me or find me at any of the social media links below.</em>
     <br>
@@ -123,39 +101,29 @@
       Boris Gladkikh <br>
       Oakland, CA 94606 
     </h3>
-    <h4><a href="mailto:borisagladkikh@gmail.com">BORISAGLADKIKH@GMAIL.COM</a></h4><br><br><br>
+    <h4><a href="mailto:borisagladkikh@gmail.com">E-MAIL</a></h4>
     <br>
     <br>
     <br>
-    <br>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/boris-gladkikh-268a9b16b/"target="_blank">LINKEDIN</a></li>
-      <li><a href="https://www.facebook.com/borisgladkill"target="_blank">FACEBOOK</a></li> 
-      <li><a href="https://github.com/gladkillmusic"target="_blank">GITHUB</a></li>
-    </ul>
+    
+    
+   <a href="https://www.linkedin.com/in/boris-gladkikh-268a9b16b/"target="_blank">LINKEDIN</a>
+   <a href="https://www.facebook.com/borisgladkill"target="_blank">FACEBOOK</a>
+   <a href="https://github.com/gladkillmusic"target="_blank">GITHUB</a>
 
-
-  </section>
+    </div>
     
 
-</section>
-
-
-
-
-
-
-
-
-
-  <footer id="color">
+  
+  </section>
+    
+  <footer>
     <ul>
       <li><a href="#home">HOME</a></li>
       <li><a href="#about">ABOUT</a></li>
       <li><a href="#portfolio">PORTFOLIO</a></li>
       <li><a href="#contact">CONTACT</a></li>
       </ul>
-      <br>
       <p><a href="#">Back to Top</a>
       </p><br>
       <p> &copy  Boris Gladkikh 2020</p>
