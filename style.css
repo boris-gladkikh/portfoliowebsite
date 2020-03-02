@@ -146,7 +146,7 @@ li {
 
 a {
     color:white;
-    text-decoration: underline;
+    text-decoration: none;
 
 }
 
@@ -208,6 +208,10 @@ footer>ul>li {
     animation: text infinite 8s;
     animation-timing-function: linear;
   
+  }
+
+  .contactbox a {
+      text-decoration: underline;
   }
   @keyframes text {
     0% {
